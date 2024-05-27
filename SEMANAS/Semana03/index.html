@@ -1,0 +1,230 @@
+<!--Diseñar una página web responsive con Bootstrap que contiene una fila y 12 columnas para pantallas sm, md, lg, xl y xxl.
+     Siga la figura siguiente.-->     
+
+
+
+     <!DOCTYPE html>
+     <html lang="es">
+
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>PREGUNTA 1 - Bootstrap</title>
+         
+         <!-- Bootstrap CSS -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+         <style>
+             .box {
+                 border: 0px solid rgb(238, 239, 239); /* Corregido el valor de border */
+                 padding: 10px; /* Ajustado el padding */
+                 text-align: center;
+                 margin-bottom: 0,5px;
+             }
+     
+             .h1 {
+                 color: rgb(145, 89, 230);
+             }
+             title {
+                 color: rgb(65, 218, 180); /* Cambiar color */
+             }
+     
+         </style>
+     </head>
+     <body>
+     
+         <h1><center>PREGUNTA 1 - Bootstrap</center></h1>
+     
+         <!-- xxl xl -->
+         <div class="container text-center">
+             <div class="row">
+                 <div class="col-xl-1 col-1 bg-primary text-white box">1</div>
+                 <div class="col-xl-1 col-1 bg-secondary text-white box">2</div>
+                 <div class="col-xl-1 col-1 bg-success text-white box">3</div>
+                 <div class="col-xl-1 col-1 bg-danger text-white box">4</div>
+                 <div class="col-xl-1 col-1 bg-warning text-dark box">5</div>
+                 <div class="col-xl-1 col-1 bg-info text-white box">6</div>
+                 <div class="col-xl-1 col-1 bg-primary text-white box">7</div>
+                 <div class="col-xl-1 col-1 bg-secondary text-white box">8</div>
+                 <div class="col-xl-1 col-1 bg-success text-white box">9</div>
+                 <div class="col-xl-1 col-1 bg-danger text-white box">10</div>
+                 <div class="col-xl-1 col-1 bg-warning text-dark box">11</div>
+                 <div class="col-xl-1 col-1 bg-info text-white box">12</div>
+             </div>
+         </div>
+     
+         <br/>
+     
+         <div class="container text-center">
+             <!-- Primera fila -->
+             <div class="row">
+                 <div class="col-lg-2 bg-primary text-white box">1</div> <!-- Columna 1: Fondo azul, texto blanco -->
+                 <div class="col-lg-2 bg-secondary text-white box">2</div> <!-- Columna 2: Fondo gris, texto blanco -->
+                 <div class="col-lg-2 bg-success text-white box">3</div> <!-- Columna 3: Fondo verde, texto blanco -->
+                 <div class="col-lg-2 bg-danger text-white box">4</div> <!-- Columna 4: Fondo rojo, texto blanco -->
+                 <div class="col-lg-2 bg-warning text-dark box">5</div> <!-- Columna 5: Fondo amarillo, texto oscuro -->
+                 <div class="col-lg-2 bg-info text-white box">6</div> <!-- Columna 6: Fondo azul claro, texto blanco -->
+             </div>
+             <!-- Segunda fila -->
+             <div class="row">
+                 <div class="col-lg-2 bg-danger text-white box">7</div> <!-- Columna 7: Fondo rojo, texto blanco -->
+                 <div class="col-lg-2 bg-warning text-dark box">8</div> <!-- Columna 8: Fondo amarillo, texto oscuro -->
+                 <div class="col-lg-2 bg-primary text-white box">9</div> <!-- Columna 9: Fondo azul, texto blanco -->
+                 <div class="col-lg-2 bg-secondary text-white box">10</div> <!-- Columna 10: Fondo gris, texto blanco -->
+                 <div class="col-lg-2 bg-info text-white box">11</div> <!-- Columna 11: Fondo azul claro, texto blanco -->
+                 <div class="col-lg-2 bg-success text-white box">12</div> <!-- Columna 12: Fondo verde, texto blanco -->
+             </div>
+         </div>
+         <br/>
+     
+     
+     <!-- Para pantallas md -->
+     <div class="container text-center">
+         <div class="row">
+             <div class="col-md-3 bg-primary text-white box">1</div>
+             <div class="col-md-3 bg-secondary text-white box">2</div>
+             <div class="col-md-3 bg-success text-white box">3</div>
+             <div class="col-md-3 bg-danger text-white box">4</div>
+         </div>
+         <div class="row">
+             <div class="col-md-3 bg-warning text-dark box">5</div>
+             <div class="col-md-3 bg-info text-white box">6</div>
+             <div class="col-md-3 bg-primary text-white box">7</div>
+             <div class="col-md-3 bg-secondary text-white box">8</div>
+         </div>
+         <div class="row">
+             <div class="col-md-3 bg-success text-white box">9</div>
+             <div class="col-md-3 bg-danger text-white box">10</div>
+             <div class="col-md-3 bg-warning text-dark box">11</div>
+             <div class="col-md-3 bg-info text-white box">12</div>
+         </div>
+     </div>
+     <br/>
+     
+     <!-- Para pantallas sm -->
+     <div class="container text-center">
+         <div class="row">
+             <div class="col-md-3 bg-primary text-white  box">1</div>
+             <div class="col-md-3 bg-secondary text-white box">2</div>
+             <div class="col-md-3 bg-success text-white box">3</div>
+         </div>
+         <div class="row">
+             <div class="col-md-3 bg-danger text-white box">4</div>
+             <div class="col-md-3 bg-warning text-dark box">5</div>
+             <div class="col-md-3 bg-info text-white box">6</div>
+         </div>
+         <div class="row">
+             <div class="col-md-3 bg-primary text-white box">7</div>
+             <div class="col-md-3 bg-secondary text-white box">8</div>
+             <div class="col-md-3 bg-success text-white box">9</div>
+         </div>
+         <div class="row">
+             <div class="col-md-3 bg-danger text-white box">10</div>
+             <div class="col-md-3 bg-warning text-dark box">11</div>
+             <div class="col-md-3 bg-info text-white box">12</div>
+         </div>
+     </div>
+     <br/>
+     
+     
+     
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<!--PREGUNTA 2-->
+
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PREGUNTA 2 :Tailwind</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    </head>
+    <body>
+    
+        <h1 class="text-center text-red-500 text-4xl font-bold mb-8">PREGUNTA 2 - Tailwind</h1>
+    
+        <!-- xxl xl -->
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-1 bg-red-50">1</div>
+                <div class="col-span-1 bg-red-100">2</div>
+                <div class="col-span-1 bg-red-200">3</div>
+                <div class="col-span-1 bg-red-300">4</div>
+                <div class="col-span-1 bg-red-400">5</div>
+                <div class="col-span-1 bg-red-500">6</div>
+                <div class="col-span-1 bg-red-600">7</div>
+                <div class="col-span-1 bg-red-700">8</div>
+                <div class="col-span-1 bg-red-800">9</div>
+                <div class="col-span-1 bg-red-900">10</div>
+                <div class="col-span-1 bg-pink-800">11</div>
+                <div class="col-span-1 bg-pink-700">12</div>
+            </div>
+        </div>
+    
+        <br>
+    
+        <!-- lg -->
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-6 gap-4">
+                <div class="col-span-1 bg-blue-50">1</div>
+                <div class="col-span-1 bg-blue-100">2</div>
+                <div class="col-span-1 bg-blue-200">3</div>
+                <div class="col-span-1 bg-blue-300">4</div>
+                <div class="col-span-1 bg-blue-400">5</div>
+                <div class="col-span-1 bg-blue-500">6</div>
+                <div class="col-span-1 bg-blue-600">7</div>
+                <div class="col-span-1 bg-blue-700">8</div>
+                <div class="col-span-1 bg-blue-800">9</div>
+                <div class="col-span-1 bg-blue-900">10</div>
+                <div class="col-span-1 bg-indigo-800">11</div>
+                <div class="col-span-1 bg-indigo-700">12</div>
+            </div>
+        </div>
+    
+        <br>
+    
+        <!-- md -->
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-4 gap-4">
+                <div class="col-span-1 bg-yellow-50 xl:bg-red-800 md:bg-red-200 sm:bg-blue-300">1</div>
+                <div class="col-span-1 bg-yellow-100">2</div>
+                <div class="col-span-1 bg-yellow-200">3</div>
+                <div class="col-span-1 bg-yellow-300">4</div>
+                <div class="col-span-1 bg-yellow-400">5</div>
+                <div class="col-span-1 bg-yellow-500">6</div>
+                <div class="col-span-1 bg-yellow-600">7</div>
+                <div class="col-span-1 bg-yellow-700">8</div>
+                <div class="col-span-1 bg-yellow-800">9</div>
+                <div class="col-span-1 bg-yellow-900">10</div>
+                <div class="col-span-1 bg-yellow-400">11</div>
+                <div class="col-span-1 bg-yellow-500">12</div>
+            </div>
+        </div>
+    
+        <br>
+    
+        <!-- sm -->
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-3 gap-4">
+                <div class="col-span-1 bg-purple-50">1</div>
+                <div class="col-span-1 bg-purple-100">2</div>
+                <div class="col-span-1 bg-purple-200">3</div>
+                <div class="col-span-1 bg-purple-300">4</div>
+                <div class="col-span-1 bg-purple-400">5</div>
+                <div class="col-span-1 bg-purple-500">6</div>
+                <div class="col-span-1 bg-purple-600">7</div>
+                <div class="col-span-1 bg-purple-700">8</div>
+                <div class="col-span-1 bg-purple-800">9</div>
+                <div class="col-span-1 bg-purple-900">10</div>
+                <div class="col-span-1 bg-purple-400">11</div>
+                <div class="col-span-1 bg-purple-500">12</div>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/cdn.min.js"></script>
+    
+
+             
+     </body>
+     </html>
+     
